@@ -2,10 +2,10 @@
 
 Variables estáticas
 
-	Es una variable que ha sido ubicada estáticamente y cuyo tiempo de vida se extiende durante toda la ejecución del programa.
-	Las variables estáticas en C tienen las siguientes dos propiedades:
-		1.	No pueden ser accedidas desde otro fichero. Por tanto, los prefijos “extern” y “static” no pueden ser utilizados en 			la misma declaración.
-		2.	Mantienen su valor a lo largo de toda la ejecución del programa independientemente del ámbito en el que estén 					  definidas.
+Es una variable que ha sido ubicada estáticamente y cuyo tiempo de vida se extiende durante toda la ejecución del programa.
+Las variables estáticas en C tienen las siguientes dos propiedades:
+	1.	No pueden ser accedidas desde otro fichero. Por tanto, los prefijos “extern” y “static” no pueden ser utilizados en la misma declaración.
+	2.	Mantienen su valor a lo largo de toda la ejecución del programa independientemente del ámbito en el que estén   definidas.
   Como consecuencia de estas dos propiedades se derivan los siguientes casos:
     1.	Si una variable estática está declarada fuera de las funciones, será accesible únicamente por el código que le siga      en el mismo fichero de su declaración.
     2.	Si una variable estática está declarada en una función, sólo será accesible desde esa función y mantendrá su valor       entre ejecuciones de la función.
